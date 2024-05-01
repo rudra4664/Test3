@@ -18,4 +18,3 @@ while read PID; do
     echo "$PID    $RAM   $CPU" >> "$mem_file"
 done < temp_log
 
-rm temp_log
